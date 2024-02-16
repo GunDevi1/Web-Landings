@@ -10,8 +10,10 @@ body {
 	margin: 0;
 }
 
+h2,
+h3,
 a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -22,6 +24,7 @@ ul {
 button,
 input {
 	border: none;
+	outline: none;
 }
 
 button {
@@ -31,4 +34,17 @@ button {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+p,
+li {
+	color: #b8bbbd;
+}
+
+i {
+	color: #fff;
+}
+
+span {
+	color: #bdc0c2;
 }

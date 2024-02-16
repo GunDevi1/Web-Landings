@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Headphones Store</title>
-		<link rel="stylesheet" href="assets/styles/styles.css" />
+		<link rel="stylesheet" href="assets/styles/styles.min.css" />
 		<link rel="icon" href="assets/images/favicon.png" />
 	</head>
 	<body>
@@ -31,8 +31,8 @@
 		</header>
 
 		<main class="main">
-			<div class="home__section">
-				<div class="home__container home container">
+			<section class="home section">
+				<div class="home__container container">
 					<div class="home__img">
 						<img src="assets/images/home.png" alt="" />
 					</div>
@@ -50,12 +50,190 @@
 								<i class="fa-solid fa-bag-shopping"></i>
 								Add to Bag
 							</span>
-							<span class="home__price"> 299$ </span>
+							<span class="home__price"> $299 </span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="sponsor section">
+				<div class="sponsor__container container">
+					<img src="assets/images/sponsor1.png" alt="" class="sponsor__label" />
+					<img src="assets/images/sponsor2.png" alt="" class="sponsor__label" />
+					<img src="assets/images/sponsor3.png" alt="" class="sponsor__label" />
+					<img src="assets/images/sponsor4.png" alt="" class="sponsor__label" />
+				</div>
+			</section>
+
+			<section class="specs section">
+				<h2 class="title">Specs</h2>
+				<div class="specs__container grid container">
+					<div class="specs__grid-container grid">
+						<div class="spec">
+							<i class="fa-brands fa-bluetooth-b"></i>
+							<h3 class="spec__title">Connection</h3>
+							<span class="spec__sub-title">Bluetooth v5.2</span>
+						</div>
+						<div class="spec">
+							<i class="fa-solid fa-battery-full"></i>
+							<h3 class="spec__title">Battery</h3>
+							<span class="spec__sub-title">Duration 40h</span>
+						</div>
+						<div class="spec">
+							<i class="fa-solid fa-bolt"></i>
+							<h3 class="spec__title">Load</h3>
+							<span class="spec__sub-title">Fast charge 4.2-AAC</span>
+						</div>
+						<div class="spec">
+							<i class="fa-solid fa-microphone"></i>
+							<h3 class="spec__title">Microphone</h3>
+							<span>Supports Apple Siri </span> <br />
+							<span class="spec__sub-title">and Google</span>
+						</div>
+					</div>
+					<img src="assets/images/specs.png" alt="" />
+				</div>
+			</section>
+
+			<section class="case section">
+				<h2 class="title">Case</h2>
+				<div class="case__grid-container grid case__container container">
+					<img src="assets/images/case.png" alt="" class="case__img" />
+					<div class="case__data">
+						<p class="case__description">
+							With a comfortable and adaptable case so that you can store it
+							whenever you want, and keep your durability forever.
+						</p>
+						<a href="" class="button button--flex">
+							<i class="fa-solid fa-circle-info"></i>
+							More info
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="discount section">
+				<div class="discount__container grid container">
+					<div class="discount__animate">
+						<h2 class="discount__title">Immerse yourself in your music</h2>
+						<p class="discount__description">Get it now, up to 50% off.</p>
+						<a href="" class="button button--flex">
+							<i class="fa-solid fa-bag-shopping"></i>
+							Buy now
+						</a>
+					</div>
+					<div class="discount__img">
+						<img src="assets/images/discount.png" alt="" />
+					</div>
+				</div>
+			</section>
+
+			<section class="products section">
+				<h2 class="title">
+					Choose <br />
+					Your Style
+				</h2>
+				<div class="products__container container grid">
+					<div class="products__item">
+						<img src="assets/images/product1.png" alt="" class="product-img" />
+						<div class="product-info">
+							<span class="product-title">Black</span>
+							<span class="product-price">$249</span>
+						</div>
+						<a href="" class="product-buy"
+							><i class="fa-solid fa-bag-shopping"></i
+						></a>
+					</div>
+					<div class="products__item">
+						<img src="assets/images/product2.png" alt="" class="product-img" />
+						<div class="product-info">
+							<span class="product-title">Red Black</span>
+							<span class="product-price">$249</span>
+						</div>
+						<a href="" class="product-buy"
+							><i class="fa-solid fa-bag-shopping"></i
+						></a>
+					</div>
+					<div class="products__item">
+						<img src="assets/images/product3.png" alt="" class="product-img" />
+						<div class="product-info">
+							<span class="product-title">Night Black</span>
+							<span class="product-price">$249</span>
+						</div>
+						<a href="" class="product-buy"
+							><i class="fa-solid fa-bag-shopping"></i
+						></a>
+					</div>
+					<div class="products__item">
+						<img src="assets/images/product4.png" alt="" class="product-img" />
+						<div class="product-info">
+							<span class="product-title">Blue</span>
+							<span class="product-price">$249</span>
+						</div>
+						<a href="" class="product-buy"
+							><i class="fa-solid fa-bag-shopping"></i
+						></a>
+					</div>
+					<div class="products__item">
+						<img src="assets/images/product5.png" alt="" class="product-img" />
+						<div class="product-info">
+							<span class="product-title">Twilight gray</span>
+							<span class="product-price">$249</span>
+						</div>
+						<a href="" class="product-buy"
+							><i class="fa-solid fa-bag-shopping"></i
+						></a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer section">
+			<div class="footer__grid-container container grid">
+				<a href="" class="footer__logo"
+					><img src="assets/images/logo.png" alt=""
+				/></a>
+				<div class="footer__products">
+					<h3 class="footer__title">Products</h3>
+					<ul class="footer__list">
+						<li>Headphones</li>
+						<li>Earphones</li>
+						<li>Earbuds</li>
+						<li>Accessories</li>
+					</ul>
+				</div>
+				<div class="footer__list">
+					<h3 class="footer__title">Support</h3>
+					<ul class="footer__list">
+						<li>Product help</li>
+						<li>Register</li>
+						<li>Updates</li>
+						<li>Provides</li>
+					</ul>
+				</div>
+				<div class="footer__social">
+					<div class="input-group">
+						<input type="email" placeholder="Email" />
+						<button class="button button--flex">
+							<i class="fa-solid fa-paper-plane"></i>
+							Subscribe
+						</button>
+					</div>
+					<div class="social-list">
+						<a href="" class="facebook social-icon">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+						<a href="" class="instagram social-icon">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+						<a href="" class="twitter social-icon">
+							<i class="fa-brands fa-twitter"></i>
 						</a>
 					</div>
 				</div>
 			</div>
-		</main>
+			<p class="footer__copy">© Bedimcode. All right reserved</p>
+		</footer>
 	</body>
 
 	<script

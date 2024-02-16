@@ -1,0 +1,22 @@
+.discount {
+	&__container {
+		grid-template-columns: 250px max-content;
+		justify-content: center;
+		column-gap: 5rem;
+		align-items: center;
+		background-color: #181a1b;
+		padding: 48px 0;
+		border-radius: 15px;
+	}
+	&__animate {
+	}
+	&__img {
+		width: 350px;
+	}
+	&__title {
+		margin-bottom: 5px;
+	}
+	&__description {
+		margin-bottom: 40px;
+	}
+}

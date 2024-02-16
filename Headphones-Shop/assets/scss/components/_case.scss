@@ -1,0 +1,15 @@
+.case {
+	&__grid-container {
+		grid-template-columns: max-content 250px;
+		align-items: center;
+		justify-content: center;
+		column-gap: 5rem;
+	}
+	&__img {
+		width: 300px;
+	}
+	&__description {
+		line-height: 2rem;
+		margin-bottom: 30px;
+	}
+}

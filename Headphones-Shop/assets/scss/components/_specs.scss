@@ -1,0 +1,30 @@
+.specs {
+	&__container {
+		grid-template-columns: repeat(2, 0.5fr);
+		align-items: center;
+		justify-content: center;
+		max-width: 600px;
+	}
+	&__grid-container {
+		row-gap: 1.5rem;
+		align-items: center;
+		justify-content: center;
+	}
+	.spec {
+		&__title {
+			font-weight: 300;
+			font-size: 16px;
+		}
+		&__sub-title {
+			font-weight: 200;
+			font-size: 14px;
+		}
+	}
+	&__grid-container > :first-child,
+	&__grid-container > :last-child {
+		margin-left: 24px;
+	}
+	img {
+		width: 300px;
+	}
+}
