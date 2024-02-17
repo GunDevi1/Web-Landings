@@ -34,18 +34,20 @@
 			<section class="home section">
 				<div class="home__container container">
 					<div class="home__img">
-						<img src="assets/images/home.png" alt="" />
+						<img src="assets/images/home.png" alt="" class="home__images" />
 					</div>
 					<div class="home__text">
-						<h1 class="home__title">On ear</h1>
-						<h2 class="home__subtitle">Beats 3</h2>
-						<h3 class="home__title-description">Overview</h3>
-						<p class="home__description">
+						<div class="home__animated">
+							<h1 class="home__title">On ear</h1>
+							<h2 class="home__subtitle">Beats 3</h2>
+						</div>
+						<h3 class="home__title-description home__animated">Overview</h3>
+						<p class="home__description home__animated">
 							Enjoy award-winning Beats sound with wireless listening freedom
 							and a sleek, streamlined design with comfortable padded earphones,
 							delivering first-rate playback.
 						</p>
-						<a href="#" class="button button--flex">
+						<a href="#" class="button button--flex home__animated">
 							<span class="button--flex">
 								<i class="fa-solid fa-bag-shopping"></i>
 								Add to Bag
@@ -91,7 +93,7 @@
 							<span class="spec__sub-title">and Google</span>
 						</div>
 					</div>
-					<img src="assets/images/specs.png" alt="" />
+					<img src="assets/images/specs.png" alt="" class="spec__img" />
 				</div>
 			</section>
 
@@ -190,10 +192,10 @@
 
 		<footer class="footer section">
 			<div class="footer__grid-container container grid">
-				<a href="" class="footer__logo"
+				<a href="" class="footer__logo footer__content"
 					><img src="assets/images/logo.png" alt=""
 				/></a>
-				<div class="footer__products">
+				<div class="footer__products footer__content">
 					<h3 class="footer__title">Products</h3>
 					<ul class="footer__list">
 						<li>Headphones</li>
@@ -202,7 +204,7 @@
 						<li>Accessories</li>
 					</ul>
 				</div>
-				<div class="footer__list">
+				<div class="footer__list footer__content">
 					<h3 class="footer__title">Support</h3>
 					<ul class="footer__list">
 						<li>Product help</li>
@@ -211,7 +213,7 @@
 						<li>Provides</li>
 					</ul>
 				</div>
-				<div class="footer__social">
+				<div class="footer__social footer__content">
 					<div class="input-group">
 						<input type="email" placeholder="Email" />
 						<button class="button button--flex">
@@ -219,7 +221,7 @@
 							Subscribe
 						</button>
 					</div>
-					<div class="social-list">
+					<div class="social-list footer__content">
 						<a href="" class="facebook social-icon">
 							<i class="fa-brands fa-facebook-f"></i>
 						</a>
@@ -232,7 +234,7 @@
 					</div>
 				</div>
 			</div>
-			<p class="footer__copy">© Bedimcode. All right reserved</p>
+			<p class="footer__copy footer__content">© All right reserved</p>
 		</footer>
 	</body>
 
@@ -240,4 +242,7 @@
 		src="https://kit.fontawesome.com/68de43edb0.js"
 		crossorigin="anonymous"
 	></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="assets/vendor/scrollreveal.js"></script>
+	<script src="assets/vendor/main.js"></script>
 </html>

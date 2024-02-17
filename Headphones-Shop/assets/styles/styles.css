@@ -100,6 +100,9 @@ span {
   top: 0;
   z-index: 999;
 }
+.header__scrolled {
+  background-color: #0f0f10;
+}
 .header .nav {
   display: flex;
   justify-content: space-between;
@@ -288,6 +291,7 @@ span {
 }
 .products .product-title {
   color: #fff;
+  font-size: 14px;
   font-weight: bold;
 }
 
