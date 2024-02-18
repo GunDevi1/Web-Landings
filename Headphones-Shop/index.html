@@ -15,23 +15,23 @@
 				</a>
 				<ul class="nav__list">
 					<li class="nav__list-item">
-						<a href="#" class="nav__link active-link">Home</a>
+						<a href="#home" class="nav__link home__link active-link">Home</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="#" class="nav__link">Specs</a>
+						<a href="#specs" class="nav__link specs__link">Specs</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="#" class="nav__link">Case</a>
+						<a href="#case" class="nav__link case__link">Case</a>
 					</li>
 					<li class="nav__list-item">
-						<a href="#" class="nav__link">Products</a>
+						<a href="#products" class="nav__link products__link">Products</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 
 		<main class="main">
-			<section class="home section">
+			<section class="home section" id="home">
 				<div class="home__container container">
 					<div class="home__img">
 						<img src="assets/images/home.png" alt="" class="home__images" />
@@ -52,7 +52,7 @@
 								<i class="fa-solid fa-bag-shopping"></i>
 								Add to Bag
 							</span>
-							<span class="home__price"> $299 </span>
+							<span class="home__price">$299</span>
 						</a>
 					</div>
 				</div>
@@ -67,8 +67,8 @@
 				</div>
 			</section>
 
-			<section class="specs section">
-				<h2 class="title">Specs</h2>
+			<section class="specs section" id="specs">
+				<h2 class="specs__title title">Specs</h2>
 				<div class="specs__container grid container">
 					<div class="specs__grid-container grid">
 						<div class="spec">
@@ -97,8 +97,8 @@
 				</div>
 			</section>
 
-			<section class="case section">
-				<h2 class="title">Case</h2>
+			<section class="case section" id="case">
+				<h2 class="case__title title">Case</h2>
 				<div class="case__grid-container grid case__container container">
 					<img src="assets/images/case.png" alt="" class="case__img" />
 					<div class="case__data">
@@ -130,8 +130,8 @@
 				</div>
 			</section>
 
-			<section class="products section">
-				<h2 class="title">
+			<section class="products section" id="products">
+				<h2 class="products__title title">
 					Choose <br />
 					Your Style
 				</h2>
@@ -198,19 +198,19 @@
 				<div class="footer__products footer__content">
 					<h3 class="footer__title">Products</h3>
 					<ul class="footer__list">
-						<li>Headphones</li>
-						<li>Earphones</li>
-						<li>Earbuds</li>
-						<li>Accessories</li>
+						<li><a href="#">Headphones</a></li>
+						<li><a href="">Earphones</a></li>
+						<li><a href="">Earbuds</a></li>
+						<li><a href="">Accessories</a></li>
 					</ul>
 				</div>
 				<div class="footer__list footer__content">
 					<h3 class="footer__title">Support</h3>
 					<ul class="footer__list">
-						<li>Product help</li>
-						<li>Register</li>
-						<li>Updates</li>
-						<li>Provides</li>
+						<li><a href="">Product help</a></li>
+						<li><a href="">Register</a></li>
+						<li><a href="">Updates</a></li>
+						<li><a href="">Provides</a></li>
 					</ul>
 				</div>
 				<div class="footer__social footer__content">
@@ -244,5 +244,6 @@
 	></script>
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<script src="assets/vendor/scrollreveal.js"></script>
-	<script src="assets/vendor/main.js"></script>
+	<script src="assets/vendor/navigation.js"></script>
+	<script src="assets/vendor/header.js"></script>
 </html>
