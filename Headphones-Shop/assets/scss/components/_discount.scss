@@ -2,16 +2,38 @@
 	&__container {
 		grid-template-columns: 250px max-content;
 		justify-content: center;
-		column-gap: 5rem;
 		align-items: center;
 		background-color: #181a1b;
 		padding: 48px 0;
+		column-gap: 5rem;
 		border-radius: 15px;
+		position: relative;
+		@media (max-width: 767px) {
+			grid-template-columns: repeat(2, 1fr);
+			padding: 24px;
+			column-gap: 3rem;
+		}
+		@media (max-width: 576px) {
+			grid-template-columns: repeat(2, 1fr);
+			display: block;
+			padding: 20px;
+			padding: 24px;
+		}
 	}
-	&__animate {
+	&__data {
+		justify-self: end;
 	}
 	&__img {
-		width: 350px;
+		width: 100%;
+		max-width: 350px;
+		min-width: 242px;
+		justify-self: start;
+		@media (max-width: 576px) {
+			position: absolute;
+			right: -150px;
+			bottom: -50px;
+			width: 300px;
+		}
 	}
 	&__title {
 		margin-bottom: 5px;

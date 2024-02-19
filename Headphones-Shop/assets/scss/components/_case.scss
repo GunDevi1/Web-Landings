@@ -4,9 +4,22 @@
 		align-items: center;
 		justify-content: center;
 		column-gap: 5rem;
+		position: relative;
+		@media (max-width: 576px) {
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: unset;
+		}
+	}
+	&__data {
+		grid-column: 2;
 	}
 	&__img {
-		width: 300px;
+		width: 250px;
+		position: initial;
+		@media (max-width: 576px) {
+			position: absolute;
+			left: -7rem;
+		}
 	}
 	&__description {
 		line-height: 2rem;

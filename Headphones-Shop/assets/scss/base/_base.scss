@@ -4,10 +4,16 @@
 	margin: 0;
 }
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: var(--body-color);
 	font-family: var(--body-font-family);
 	margin: 0;
+	position: relative;
 }
 
 h2,

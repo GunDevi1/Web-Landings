@@ -10,23 +10,31 @@
 	<body>
 		<header class="header">
 			<nav class="nav container">
-				<a class="logo">
+				<a href="#" class="logo">
 					<img src="assets/images/logo.png" alt="" />
 				</a>
-				<ul class="nav__list">
-					<li class="nav__list-item">
-						<a href="#home" class="nav__link home__link active-link">Home</a>
-					</li>
-					<li class="nav__list-item">
-						<a href="#specs" class="nav__link specs__link">Specs</a>
-					</li>
-					<li class="nav__list-item">
-						<a href="#case" class="nav__link case__link">Case</a>
-					</li>
-					<li class="nav__list-item">
-						<a href="#products" class="nav__link products__link">Products</a>
-					</li>
-				</ul>
+				<div class="nav__menu">
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a href="#home" class="nav__link home__link active-link">Home</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#specs" class="nav__link specs__link">Specs</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#case" class="nav__link case__link">Case</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#products" class="nav__link products__link">Products</a>
+						</li>
+					</ul>
+					<div class="nav__close">
+						<i class="fa-solid fa-xmark"></i>
+					</div>
+				</div>
+				<div class="nav__toggle">
+					<i class="fa-solid fa-bars"></i>
+				</div>
 			</nav>
 		</header>
 
@@ -59,7 +67,7 @@
 			</section>
 
 			<section class="sponsor section">
-				<div class="sponsor__container container">
+				<div class="sponsor__container container grid">
 					<img src="assets/images/sponsor1.png" alt="" class="sponsor__label" />
 					<img src="assets/images/sponsor2.png" alt="" class="sponsor__label" />
 					<img src="assets/images/sponsor3.png" alt="" class="sponsor__label" />
@@ -93,14 +101,18 @@
 							<span class="spec__sub-title">and Google</span>
 						</div>
 					</div>
-					<img src="assets/images/specs.png" alt="" class="spec__img" />
+					<div class="spec__img">
+						<img src="assets/images/specs.png" alt="" />
+					</div>
 				</div>
 			</section>
 
 			<section class="case section" id="case">
 				<h2 class="case__title title">Case</h2>
 				<div class="case__grid-container grid case__container container">
-					<img src="assets/images/case.png" alt="" class="case__img" />
+					<div class="case__img">
+						<img src="assets/images/case.png" alt="" />
+					</div>
 					<div class="case__data">
 						<p class="case__description">
 							With a comfortable and adaptable case so that you can store it
@@ -116,7 +128,7 @@
 
 			<section class="discount section">
 				<div class="discount__container grid container">
-					<div class="discount__animate">
+					<div class="discount__data">
 						<h2 class="discount__title">Immerse yourself in your music</h2>
 						<p class="discount__description">Get it now, up to 50% off.</p>
 						<a href="" class="button button--flex">
@@ -214,13 +226,13 @@
 					</ul>
 				</div>
 				<div class="footer__social footer__content">
-					<div class="input-group">
+					<form class="footer__form">
 						<input type="email" placeholder="Email" />
 						<button class="button button--flex">
 							<i class="fa-solid fa-paper-plane"></i>
 							Subscribe
 						</button>
-					</div>
+					</form>
 					<div class="social-list footer__content">
 						<a href="" class="facebook social-icon">
 							<i class="fa-brands fa-facebook-f"></i>
@@ -236,6 +248,10 @@
 			</div>
 			<p class="footer__copy footer__content">© All right reserved</p>
 		</footer>
+
+		<a href="#" class="scrollup show-scroll">
+			<i class="fa-solid fa-chevron-up"></i>
+		</a>
 	</body>
 
 	<script

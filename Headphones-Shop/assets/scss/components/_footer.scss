@@ -1,6 +1,10 @@
 .footer {
 	&__grid-container {
-		grid-template-columns: 1fr 2fr 2fr 3fr;
+		grid-template-columns: 0.4fr 0.7fr 0.7fr 1fr;
+		row-gap: 2rem;
+		@media (max-width: 767px) {
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		}
 	}
 	&__logo {
 		width: 32px;
@@ -16,22 +20,21 @@
 		margin-top: 9rem;
 		font-size: 12px;
 	}
-	.input-group {
-		border-radius: 5px;
+	&__form {
+		border-radius: 10px;
 		background-color: #181a1b;
 		padding: 10px;
 		display: flex;
-		justify-content: space-between;
 		margin-bottom: 20px;
+		flex-wrap: nowrap;
 		input {
 			font-size: 18px;
 			background-color: transparent;
 			color: #fff;
-			width: 60%;
+			width: 90%;
 		}
 		button {
 			color: #fff;
-			right: 0;
 			padding: 1rem 1.25rem;
 		}
 	}

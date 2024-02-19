@@ -1,6 +1,9 @@
 .container {
 	max-width: 968px;
 	margin: 0 auto;
+	@media (max-width: 968px) {
+		margin: 0 1.5rem;
+	}
 }
 
 .section {
@@ -16,6 +19,9 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-bottom: 40px;
+	@media (max-width: 968px) {
+		font-size: 56px;
+	}
 }
 
 .button--flex {
@@ -36,4 +42,18 @@
 
 .grid {
 	display: grid;
+}
+
+.scrollup {
+	position: fixed;
+	bottom: -100%;
+	right: 15px;
+	padding: 5px 10px;
+	background-color: #181a1b;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+.show-scroll {
+	bottom: 80px;
 }

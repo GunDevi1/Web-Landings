@@ -5,6 +5,9 @@
 	&__container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+		@media (max-width: 576px) {
+			display: block;
+		}
 	}
 	&__img {
 		position: relative;
@@ -13,6 +16,10 @@
 			top: -250px;
 			left: 80px;
 			position: absolute;
+			@media (max-width: 576px) {
+				top: -350px;
+				width: 250px;
+			}
 		}
 	}
 	&__text {
@@ -26,10 +33,18 @@
 		font-size: 7.5rem;
 		margin-bottom: -30px;
 		line-height: 7.5rem;
+		@media (max-width: 576px) {
+			font-size: 5rem;
+			line-height: 6rem;
+			text-align: start;
+		}
 	}
 	&__subtitle {
 		font-size: 4rem;
 		margin-bottom: 40px;
+		@media (max-width: 576px) {
+			font-size: 2.5rem;
+		}
 	}
 	&__title-description {
 		margin-bottom: 24px;

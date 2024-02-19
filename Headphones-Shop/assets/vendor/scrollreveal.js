@@ -64,7 +64,7 @@ ScrollReveal().reveal('.case__data', slideLeft)
 ScrollReveal().reveal('.case__img', slideRight)
 
 ScrollReveal().reveal('.discount__img', slideLeft)
-ScrollReveal().reveal('.discount__animate', slideRight)
+ScrollReveal().reveal('.discount__data', slideRight)
 
 ScrollReveal().reveal('.products__item', {
 	distance: '25%',
