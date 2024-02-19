@@ -11,6 +11,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -537,4 +541,15 @@ span {
   padding: 5px;
   margin-right: 20px;
   background-color: #181a1b;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #181a1b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdc0bc;
+  border-radius: 15px;
 }
