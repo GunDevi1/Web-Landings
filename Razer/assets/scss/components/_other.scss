@@ -1,0 +1,59 @@
+.other {
+	&__container {
+		display: grid;
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0.5rem;
+		color: #fff;
+		margin-bottom: 0.5rem;
+	}
+	&__item {
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	&__title {
+		font-size: 48px;
+		font-weight: normal;
+		margin-bottom: 12px;
+		margin-top: 56px;
+	}
+	&__subtitle {
+		font-size: 24px;
+		font-weight: normal;
+	}
+	&__links {
+		display: flex;
+		column-gap: 2rem;
+		justify-content: center;
+	}
+	&__link {
+		font-size: 20px;
+		margin-top: 15px;
+		span {
+			color: #44d62c;
+		}
+	}
+	&__blade {
+		background-image: url('../images/other__banner-blade.png');
+	}
+	&__iskur {
+		background-image: url('../images/other__banner-iskur.png');
+	}
+	&__collection {
+		background-image: url('../images/other__banner-collection.png');
+	}
+	&__fujin {
+		background-image: url('../images/other__banner-fujin.png');
+	}
+	&__esports {
+		background-image: url('../images/other__banner-esports.png');
+	}
+	&__card {
+		background-image: url('../images/other__banner-card.png');
+	}
+}

@@ -1,0 +1,28 @@
+.gear {
+	height: 100vh;
+	background-image: url('../images/gear__banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	&__container {
+		text-align: center;
+	}
+	&__title {
+		font-size: 48px;
+		font-weight: normal;
+		margin-top: 60px;
+	}
+	&__subtitle {
+		font-size: 24px;
+		font-weight: normal;
+		margin-top: 12px;
+	}
+	&__buy {
+		font-size: 20px;
+		margin-top: 15px;
+		span {
+			color: #44d62c;
+		}
+	}
+}

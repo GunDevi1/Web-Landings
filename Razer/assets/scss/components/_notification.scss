@@ -1,0 +1,10 @@
+.notification {
+	background-color: #555;
+	&__container {
+		color: #eee;
+		text-align: center;
+		padding: 1rem 0;
+		font-size: 14px;
+		font-family: Roboto;
+	}
+}

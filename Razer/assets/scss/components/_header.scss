@@ -1,0 +1,52 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	border-bottom: 1px solid #44d62c;
+	line-height: 1.5rem;
+	&__container {
+		display: grid;
+		grid-template-columns: 0.25fr 3fr 0.5fr;
+		align-items: center;
+		padding: 0.7rem 0;
+	}
+	&__logo {
+		width: 35px;
+		&-img {
+			width: 100%;
+		}
+		&-link {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	&__options {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		margin-top: 5px;
+		&-search,
+		&-cart {
+			color: #999;
+			font-size: 14px;
+		}
+	}
+	.nav {
+		&-list {
+			display: grid;
+			grid-template-columns: repeat(8, 1fr);
+			justify-items: space-between;
+		}
+		&-item {
+			font-weight: 300;
+			text-align: center;
+			a {
+				color: #999;
+			}
+		}
+	}
+}
