@@ -6,6 +6,9 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
 		border-bottom: 1px solid #999;
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
 	}
 	&__list {
 		&-title {
@@ -15,7 +18,9 @@
 		&-item {
 			font-size: 12px;
 			margin-bottom: 12px;
-			color: #999;
+			a {
+				color: #999;
+			}
 		}
 	}
 	&__text {

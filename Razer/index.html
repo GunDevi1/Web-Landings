@@ -15,6 +15,11 @@
 	<body>
 		<header class="header">
 			<div class="header__container container">
+				<div class="header__menu">
+					<button href="#" class="header__menu-button">
+						<i class="fa-solid fa-bars"></i>
+					</button>
+				</div>
 				<div class="header__logo">
 					<a href="#" class="header__logo-link">
 						<img src="assets/images/logo.png" alt="" class="header__logo-img" />
@@ -41,13 +46,33 @@
 					</button>
 				</div>
 			</div>
+			<nav class="header__nav-mobile">
+				<div class="nav-input-group">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					<input type="text" placeholder="Search razer.com" />
+				</div>
+				<ul class="nav-list-mobile">
+					<li class="nav-item"><a href="#" class="nav-link">Store</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">PC</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Console</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Mobile</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Lifestyle</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Community</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Support</a></li>
+				</ul>
+			</nav>
 		</header>
 
 		<main class="main">
 			<section class="notification section">
 				<div class="notification__container container">
 					RazerStore Rewards Giveaway: Become a member and stand to win the
-					Razer Huntsman V3 Pro. <a href="#">Join Now ></a>
+					Razer Huntsman V3 Pro.
+					<a href="#" class="link"
+						><span class="link__title">Join Now</span
+						><span class="link__arrow"> ></span></a
+					>
 				</div>
 			</section>
 
@@ -56,7 +81,10 @@
 					<div class="gear__container container">
 						<h1 class="gear__title">SNAPPY NEW GEAR</h1>
 						<h2 class="gear__subtitle">READY YOUR GAME FOR 2024</h2>
-						<a href="#" class="gear__buy">Shop now <span>></span></a>
+						<a href="#" class="link"
+							><span class="link__title">Shop Now</span>
+							<span class="link__arrow"> ></span></a
+						>
 					</div>
 				</section>
 
@@ -65,8 +93,14 @@
 						<h1 class="blade__title">NEW RAZER BLADE 14</h1>
 						<h2 class="blade__subtitle">SMALL SIZE. BIG PERFORMANCE.</h2>
 						<div class="blade__links">
-							<a href="#" class="blade__link">Learn More <span>></span></a>
-							<a href="#" class="blade__link">Buy <span>></span></a>
+							<a href="#" class="link"
+								><span class="link__title">Learn More</span
+								><span class="link__arrow"> ></span></a
+							>
+							<a href="#" class="link"
+								><span class="link__title">Buy</span>
+								<span class="link__arrow"> ></span></a
+							>
 						</div>
 					</div>
 				</section>
@@ -79,7 +113,12 @@
 						</div>
 						<h1 class="valentine__title">RAZER | VALENTINE’S DAY</h1>
 						<h2 class="valentine__subtitle">NOW AVAILABLE ON RAZER CUSTOMS</h2>
-						<a href="#" class="valentine__buy">Shop now ></a>
+						<div class="valentine__links">
+							<a href="#" class="link"
+								><span class="link__title">Shop Now</span>
+								<span class="link__arrow"> ></span></a
+							>
+						</div>
 					</div>
 				</section>
 
@@ -89,23 +128,38 @@
 							<div class="other__title">NEW RAZER BLADE 16</div>
 							<div class="other__subtitle">FASTEST. SHARPEST. CLEAREST.</div>
 							<div class="other__links">
-								<a href="#" class="other__link">Learn More <span>></span></a>
-								<a href="#" class="other__link">Buy <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Learn More</span>
+									<span class="link__arrow"> ></span></a
+								>
+								<a href="#" class="link"
+									><span class="link__title">Buy</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 						<div class="other__item other__iskur">
 							<div class="other__title">RAZER ISKUR V2</div>
 							<div class="other__subtitle">PERFECT GAMING FORM</div>
 							<div class="other__links">
-								<a href="#" class="other__link">Learn More <span>></span></a>
-								<a href="#" class="other__link">Buy <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Learn More</span>
+									<span class="link__arrow"> ></span></a
+								>
+								<a href="#" class="link"
+									><span class="link__title">Buy</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 						<div class="other__item other__collection">
 							<div class="other__title">RAZER XANTHUS COLLECTION</div>
 							<div class="other__subtitle">WORN BY AGAINST THE CURRENT</div>
 							<div class="other__links">
-								<a href="#" class="other__link">Shop now <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Shop Now</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 						<div class="other__item other__esports">
@@ -114,22 +168,34 @@
 								TRUSTED BY PROS. MADE FOR WINNERS.
 							</div>
 							<div class="other__links">
-								<a href="#" class="other__link">Shop now <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Learn More</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 						<div class="other__item other__fujin">
 							<div class="other__title">THE RAZER FUJIN PRO</div>
 							<div class="other__subtitle">PLAY HARD. BREATH EASY.</div>
 							<div class="other__links">
-								<a href="#" class="blade__link">Learn More <span>></span></a>
-								<a href="#" class="blade__link">Buy <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Learn More</span>
+									<span class="link__arrow"> ></span></a
+								>
+								<a href="#" class="link"
+									><span class="link__title">Buy</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 						<div class="other__item other__card">
 							<div class="other__title">GETTING A RAZER GIFT CARD?</div>
 							<div class="other__subtitle">GET A BONUS ONE ON US</div>
 							<div class="other__links">
-								<a href="#" class="other__link">Shop now <span>></span></a>
+								<a href="#" class="link"
+									><span class="link__title">Shop Now</span>
+									<span class="link__arrow"> ></span></a
+								>
 							</div>
 						</div>
 					</div>
@@ -234,6 +300,7 @@
 		</footer>
 	</body>
 
+	<script src="assets/vendor/main.js"></script>
 	<script
 		src="https://kit.fontawesome.com/68de43edb0.js"
 		crossorigin="anonymous"

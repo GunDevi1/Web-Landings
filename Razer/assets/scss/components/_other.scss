@@ -6,6 +6,9 @@
 		gap: 0.5rem;
 		color: #fff;
 		margin-bottom: 0.5rem;
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
 	}
 	&__item {
 		height: 80vh;
@@ -15,28 +18,32 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
+		@media (max-width: 1300px) {
+			height: 70vh;
+		}
 	}
 	&__title {
 		font-size: 48px;
-		font-weight: normal;
+		font-weight: bold;
 		margin-bottom: 12px;
 		margin-top: 56px;
+		text-align: center;
+		@media (max-width: 1300px) {
+			font-size: 32px;
+		}
 	}
 	&__subtitle {
 		font-size: 24px;
 		font-weight: normal;
+		text-align: center;
+		@media (max-width: 1300px) {
+			font-size: 18px;
+		}
 	}
 	&__links {
 		display: flex;
 		column-gap: 2rem;
 		justify-content: center;
-	}
-	&__link {
-		font-size: 20px;
-		margin-top: 15px;
-		span {
-			color: #44d62c;
-		}
 	}
 	&__blade {
 		background-image: url('../images/other__banner-blade.png');

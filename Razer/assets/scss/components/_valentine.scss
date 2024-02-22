@@ -30,15 +30,20 @@
 	&__title {
 		font-size: 48px;
 		font-weight: normal;
-		margin-bottom: 12px;
 	}
 	&__subtitle {
 		font-size: 24px;
-		font-weight: normal;
-		margin-bottom: 15px;
+		font-weight: 600;
+		margin-top: 12px;
 	}
-	&__buy {
-		font-size: 20px;
-		color: #000;
+	&__links {
+		display: flex;
+		column-gap: 2rem;
+		justify-content: center;
+		margin-top: 15px;
+		.link {
+			color: #000;
+			font-weight: 600;
+		}
 	}
 }
