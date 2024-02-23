@@ -7,3 +7,19 @@ menuButton.addEventListener('click', () => {
 		? 'hidden'
 		: 'auto'
 })
+
+const listButtons = document.querySelectorAll('.list-button')
+
+listButtons.forEach(button => {
+	button.addEventListener('click', () => {
+		const listItems =
+			button.parentElement.parentElement.querySelectorAll('.footer__list-item')
+		listItems.forEach(item => {
+			if (item.style.display === 'none' || item.style.display === '') {
+				item.style.display = 'block'
+			} else {
+				item.style.display = 'none'
+			}
+		})
+	})
+})

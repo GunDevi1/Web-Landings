@@ -14,69 +14,23 @@
 		padding: 0.7rem 0;
 		transition: all 0.4s;
 		position: relative;
-		@media (max-width: 1300px) {
-			grid-template-columns: 0.25fr 3fr 0.25fr;
-		}
 	}
 	&__nav {
 		.nav {
 			&-list {
 				display: grid;
 				grid-template-columns: repeat(8, 1fr);
-				@media (max-width: 768px) {
-					display: none;
-				}
 			}
 			&-item {
 				font-weight: 300;
 				text-align: center;
 				a {
 					color: #999;
-				}
-			}
-		}
-		@media (max-width: 768px) {
-			display: none;
-		}
-		&-mobile {
-			.nav {
-				&-list-mobile {
-					display: none;
-					grid-template-rows: repeat(8, 1fr);
-					row-gap: 1rem;
-					padding: 0 1.5rem;
-				}
-				&-item {
-					border-bottom: 1px solid #7c7c7c;
-					padding: 0.5rem 0;
-				}
-				&-link {
-					color: #7c7c7c;
-					display: block;
-					width: 100%;
-				}
-				&-input-group {
-					color: #999;
-					margin: 15px 0;
-					background-color: #212121;
-					padding: 10px;
-					border-radius: 10px;
-					display: none;
-					input {
-						background-color: transparent;
-						border: none;
-						font-size: 16px;
-						font-weight: 400;
-						width: 90%;
+					&:hover {
+						transition: color 0.1s ease-in-out;
 						color: #fff;
-						font-family: inherit;
-						outline: none;
 					}
 				}
-			}
-			padding: 0 1.5rem;
-			@media (min-width: 768px) {
-				display: none;
 			}
 		}
 	}
@@ -90,11 +44,6 @@
 			align-items: center;
 			justify-content: center;
 		}
-		@media (max-width: 768px) {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
 	}
 	&__menu {
 		display: none;
@@ -102,9 +51,6 @@
 		&-button {
 			color: #999;
 			font-size: 14px;
-		}
-		@media (max-width: 768px) {
-			display: block;
 		}
 	}
 	&__options {
@@ -116,32 +62,10 @@
 		&-cart {
 			color: #999;
 			font-size: 14px;
-		}
-		&-search {
-			@media (max-width: 768px) {
-				display: none;
+			&:hover {
+				transition: color 0.1s ease-in-out;
+				color: #fff;
 			}
-		}
-		@media (max-width: 768px) {
-			display: block;
-			text-align: center;
-			margin: 0;
-		}
-	}
-	&.showed {
-		@media (max-width: 768px) {
-			height: 100%;
-		}
-		.header__nav-mobile {
-			opacity: 1;
-		}
-		.nav-list-mobile {
-			display: grid;
-		}
-		.nav-input-group {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
 		}
 	}
 }
