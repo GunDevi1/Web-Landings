@@ -38,12 +38,12 @@
 					</ul>
 				</nav>
 				<div class="header__options">
-					<button class="header__options-search">
+					<a href="#" class="header__options-search">
 						<i class="fa-solid fa-magnifying-glass"></i>
-					</button>
-					<button class="header__options-cart">
+					</a>
+					<a href="#" class="header__options-cart">
 						<i class="fa-solid fa-cart-shopping"></i>
-					</button>
+					</a>
 				</div>
 			</div>
 			<nav class="header__nav-mobile">
@@ -81,10 +81,12 @@
 					<div class="gear__container container">
 						<h1 class="gear__title">SNAPPY NEW GEAR</h1>
 						<h2 class="gear__subtitle">READY YOUR GAME FOR 2024</h2>
-						<a href="#" class="link"
-							><span class="link__title">Shop Now</span>
-							<span class="link__arrow"> ></span></a
-						>
+						<div class="gear__links">
+							<a href="#" class="link"
+								><span class="link__title">Shop Now</span>
+								<span class="link__arrow"> ></span></a
+							>
+						</div>
 					</div>
 				</section>
 
@@ -206,18 +208,26 @@
 		<footer class="footer">
 			<div class="footer__container container">
 				<ul class="footer__list">
-					<h1 class="footer__list-title">Shop</h1>
+					<div class="footer__title-block">
+						<h1 class="title">Shop</h1>
+						<i class="fa-solid fa-plus list-button"></i>
+					</div>
 					<li class="footer__list-item"><a href="#">RazerStore</a></li>
 					<li class="footer__list-item"><a href="#">RazerCafe</a></li>
 					<li class="footer__list-item"><a href="#">Store Locator</a></li>
 					<li class="footer__list-item"><a href="#">Purchase Programs</a></li>
 					<li class="footer__list-item"><a href="#">Education</a></li>
 					<li class="footer__list-item"><a href="#">Exclusives</a></li>
-					<li class="footer__list-item"><a href="#">RazerStore Rewards</a></li>
+					<li class="footer__list-item">
+						<a href="#">RazerStore Rewards</a>
+					</li>
 					<li class="footer__list-item"><a href="#">Newsletter</a></li>
 				</ul>
 				<ul class="footer__list">
-					<h1 class="footer__list-title">Explore</h1>
+					<div class="footer__title-block">
+						<h1 class="title">Explore</h1>
+						<i class="fa-solid fa-plus list-button"></i>
+					</div>
 					<li class="footer__list-item"><a href="#">Technology</a></li>
 					<li class="footer__list-item"><a href="#">Chrome RGB</a></li>
 					<li class="footer__list-item"><a href="#">Concepts</a></li>
@@ -225,12 +235,17 @@
 					<li class="footer__list-item"><a href="#">Collabs</a></li>
 				</ul>
 				<ul class="footer__list">
-					<h1 class="footer__list-title">Support</h1>
+					<div class="footer__title-block">
+						<h1 class="title">Support</h1>
+						<i class="fa-solid fa-plus list-button"></i>
+					</div>
 					<li class="footer__list-item"><a href="#">Get Help</a></li>
 					<li class="footer__list-item">
 						<a href="#">Registration & Warranty</a>
 					</li>
-					<li class="footer__list-item"><a href="#">RazerStore Support</a></li>
+					<li class="footer__list-item">
+						<a href="#">RazerStore Support</a>
+					</li>
 					<li class="footer__list-item"><a href="#">RazerCare</a></li>
 					<li class="footer__list-item"><a href="#">Manage Razer ID</a></li>
 					<li class="footer__list-item"><a href="#">Support Videos</a></li>
@@ -239,15 +254,17 @@
 					</li>
 				</ul>
 				<ul class="footer__list">
-					<h1 class="footer__list-title">Company</h1>
+					<div class="footer__title-block">
+						<h1 class="title">Company</h1>
+						<i class="fa-solid fa-plus list-button"></i>
+					</div>
 					<li class="footer__list-item"><a href="#">About Us</a></li>
 					<li class="footer__list-item"><a href="#">Careers</a></li>
 					<li class="footer__list-item"><a href="#">Newsroom</a></li>
 					<li class="footer__list-item"><a href="#">zVentures</a></li>
 					<li class="footer__list-item"><a href="#">Contact Us</a></li>
 				</ul>
-				<ul class="footer__list">
-					<h1 class="footer__list-title">Follow Us</h1>
+				<ul class="footer__list social">
 					<li class="footer__list-item">
 						<a href="#"><i class="fa-brands fa-facebook-f icon"></i></a>
 					</li>
@@ -275,21 +292,23 @@
 				</div>
 			</div>
 			<div class="footer__subcontainer container">
-				<div class="footer__subcontainer-info">
-					<p>Copyright © 2024 Razer Inc. All rights reserved.</p>
-					<ul class="footer__subcontainer-list">
-						<li class="footer__subcontainer-item"><a href="#">Site Map</a></li>
-						<li class="footer__subcontainer-item">
-							<a href="#">Legal Terms</a>
-						</li>
-						<li class="footer__subcontainer-item">
-							<a href="#">Privacy Policy</a>
-						</li>
-						<li class="footer__subcontainer-item">
-							<a href="#">Cookie Settings</a>
-						</li>
-					</ul>
-				</div>
+				<p class="footer__subcontainer-text">
+					Copyright © 2024 Razer Inc. All rights reserved.
+				</p>
+				<ul class="footer__subcontainer-list">
+					<li class="footer__subcontainer-item">
+						<a href="#">Site Map</a>
+					</li>
+					<li class="footer__subcontainer-item">
+						<a href="#">Legal Terms</a>
+					</li>
+					<li class="footer__subcontainer-item">
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li class="footer__subcontainer-item">
+						<a href="#">Cookie Settings</a>
+					</li>
+				</ul>
 				<ul class="footer__subcontainer-list">
 					<li class="footer__subcontainer-item">United States</li>
 					<li class="footer__subcontainer-item">

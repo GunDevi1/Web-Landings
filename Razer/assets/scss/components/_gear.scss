@@ -12,10 +12,26 @@
 		font-size: 48px;
 		font-weight: normal;
 		margin-top: 60px;
+		@media (max-width: 1300px) {
+			font-size: 28px;
+		}
 	}
 	&__subtitle {
 		font-size: 24px;
 		font-weight: normal;
 		margin-top: 12px;
+		@media (max-width: 1300px) {
+			font-size: 16px;
+		}
+	}
+	&__links {
+		display: flex;
+		column-gap: 2rem;
+		justify-content: center;
+		.link {
+			@media (max-width: 1300px) {
+				font-size: 16px;
+			}
+		}
 	}
 }

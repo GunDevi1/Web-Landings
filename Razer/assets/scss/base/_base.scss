@@ -26,18 +26,3 @@ button {
 	background-color: transparent;
 	border: none;
 }
-
-.section {
-	a {
-		color: #fff;
-		text-decoration: none;
-		font-size: 20px;
-		margin-top: 15px;
-		&:hover > .link__title {
-			text-decoration: underline;
-		}
-		.link__arrow {
-			color: #44d62c;
-		}
-	}
-}
