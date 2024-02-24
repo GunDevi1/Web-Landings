@@ -400,6 +400,7 @@ button {
 }
 .footer__title-block .title {
   font-size: 12px;
+  margin-bottom: 12px;
 }
 @media (max-width: 768px) {
   .footer__title-block .title {
