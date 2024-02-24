@@ -9,17 +9,37 @@ menuButton.addEventListener('click', () => {
 })
 
 const listButtons = document.querySelectorAll('.list-button')
+let isListVisible = false
 
 listButtons.forEach(button => {
 	button.addEventListener('click', () => {
 		const listItems =
 			button.parentElement.parentElement.querySelectorAll('.footer__list-item')
-		listItems.forEach(item => {
-			if (item.style.display === 'none' || item.style.display === '') {
+
+		if (!isListVisible) {
+			listItems.forEach(item => {
 				item.style.display = 'block'
-			} else {
+			})
+			isListVisible = true
+		} else {
+			listItems.forEach(item => {
 				item.style.display = 'none'
-			}
-		})
+			})
+			isListVisible = false
+		}
 	})
+})
+
+window.addEventListener('resize', () => {
+	const listItems = document.querySelectorAll('.footer__list-item')
+
+	if (!isListVisible && window.innerWidth > 768) {
+		listItems.forEach(item => {
+			item.style.display = 'block'
+		})
+	} else {
+		listItems.forEach(item => {
+			item.style.display = 'none'
+		})
+	}
 })
