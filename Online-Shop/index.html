@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+		type="text/css">
+	<link rel="stylesheet" href="https://kit.fontawesome.com/68de43edb0.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+	<title>Online Shop</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<i class="fa-solid fa-bars col-lg-2 col-md-2 col-xs-2"></i>
+				<div class="logo col-lg-2 col-md-3">
+					<h1>ONLINE SHOP</h1>
+				</div>
+				<div class="search__bar col-lg-6 col-md-8">
+					<input type="text" placeholder='Пошук товару'>
+					<button><i class="fa-solid fa-magnifying-glass"></i></button>
+				</div>
+				<ul class="operations__bar col-lg-2 col-md-2">
+					<li><button><i class="fa-solid fa-cart-shopping"></i></button></li>
+					<li><button><i class="fa-solid fa-heart"></i></button></li>
+					<li><button><i class="fa-solid fa-user"></i></button></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="container">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img1.jpg" alt="">
+								<div class="bottom-left">Одяг</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img2.jpg" alt="">
+								<div class="bottom-left">Побутова техніка</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img3.jpg" alt="">
+								<div class="bottom-left">Гаджети</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img4.png" alt="">
+								<div class="bottom-left">Інструменти</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img5.jpg" alt="">
+								<div class="bottom-left">Допомога Україні</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img6.jpg" alt="">
+								<div class="bottom-left">Айфони</div>
+							</a></div>
+					</div>
+					<div class="swiper-slide">
+						<div class="img__card col-lg-12 col-md-12 col-xs-12"><a href='#'><img src="img/img7.jpg" alt="">
+								<div class="bottom-left">Самсунг</div>
+							</a></div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+
+			<div class="add__banner"><span class='add__text'>Тут могла бути ваша реклама</span></div>
+
+			<div class="products">
+				<h2>Товари</h2>
+
+				<ul class="grid-container">
+
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+					<li class="grid__item">
+						<article class="product">
+							<a href='#' class="product__img">
+								<div class="product__switch image-switch">
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone1.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone2.jpg" alt=""></div>
+									</div>
+									<div class="image-switch__item">
+										<div class="image-switch__img"><img src="img/iphone3.jpg" alt=""></div>
+									</div>
+								</div>
+							</a>
+							<h3 class="product__title">
+								<a href="#">Мобільний телефон Apple iPhone 14 128GB Purple (MPV03RX/A)</a>
+							</h3>
+							<div class="product__props">
+								<span class="product__rating">
+									<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.04894 0.92705C7.3483 0.00573924 8.6517 0.00573965 8.95106 0.92705L10.0206 4.21885C10.1545 4.63087 10.5385 4.90983 10.9717 4.90983H14.4329C15.4016 4.90983 15.8044 6.14945 15.0207 6.71885L12.2205 8.75329C11.87 9.00793 11.7234 9.4593 11.8572 9.87132L12.9268 13.1631C13.2261 14.0844 12.1717 14.8506 11.388 14.2812L8.58779 12.2467C8.2373 11.9921 7.7627 11.9921 7.41221 12.2467L4.61204 14.2812C3.82833 14.8506 2.77385 14.0844 3.0732 13.1631L4.14277 9.87132C4.27665 9.4593 4.12999 9.00793 3.7795 8.75329L0.979333 6.71885C0.195619 6.14945 0.598395 4.90983 1.56712 4.90983H5.02832C5.46154 4.90983 5.8455 4.63087 5.97937 4.21885L7.04894 0.92705Z" />
+									</svg>
+									4,5
+								</span>
+								<span class="product__testimonials">83 відгуки</span>
+							</div>
+							<div class="product__info">
+								<span class="product__term">Артикул: 879876</span>
+								<span class="product__available">В наявності: 13 шт</span>
+							</div>
+							<div class="product__price">
+								<span class="product-price__current">37 499 ₴</span>
+								<span class="product-price__old">41 499 ₴</span>
+							</div>
+							<button class="product__btn">Додати у кошик</button>
+						</article>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="btn__show-more">
+				<button class="show-more">
+					<i class="fa-solid fa-caret-down"></i>
+				</button>
+			</div>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<h1>OnlineShop</h1>
+			<div class="footer__info">
+				<ul>
+					<li><a href="#">Про нас</a></li>
+					<li><a href="#">Важливе</a></li>
+					<li><a href="#">Умови сайту</a></li>
+					<li><a href="#">Новини</a></li>
+				</ul>
+				<div class="subscription">
+					<p>Дізнавайтесь про нові акції першими!</p>
+					<input type="email" placeholder='Електронна пошта'>
+					<button>Підписатися</button>
+				</div>
+			</div>
+			<p>© Всі права захищені 1998-2023</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/68de43edb0.js" crossorigin="anonymous"></script>
+	<script src='js/show-more.js'></script>
+	<script src='js/slider.js'></script>
+
+</body>
+
+</html>
