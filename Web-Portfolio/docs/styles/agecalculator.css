@@ -1,0 +1,75 @@
+.age__html {
+	background: linear-gradient(to bottom right, #0d1b2a, #1b263b);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+.age__body {
+	margin: 0;
+	overflow-y: hidden;
+}
+
+.age__main-block {
+	margin: 0 20px;
+}
+
+.age__main-text {
+	color: #fff;
+	font-weight: 800;
+	font-size: 48px;
+}
+
+.age__sub-main-text {
+	color: #778da9;
+	font-weight: 800;
+	font-size: 48px;
+}
+
+.age__input-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 30%;
+}
+
+.age__input-date {
+	padding: 0 10px;
+	width: 70%;
+	height: 30px;
+	border: unset;
+	border-radius: 5px;
+}
+
+.age__input-button {
+	background-color: #778da9;
+	border: unset;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 0 10px;
+	color: #fff;
+	font-weight: 500;
+	height: 30px;
+	cursor: pointer;
+}
+
+.age__text {
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.age__date-style {
+	color: #778da9;
+	font-weight: 600;
+}
+
+@media (width < 1024px) {
+	.age__input-block {
+		width: 60%;
+	}
+}

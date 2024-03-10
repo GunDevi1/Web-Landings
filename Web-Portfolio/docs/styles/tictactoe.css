@@ -1,0 +1,46 @@
+.ttt__header {
+	text-align: center;
+	color: rgb(142, 195, 241);
+}
+
+.ttt__main-block {
+	background-color: rgb(142, 195, 241);
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.ttt__grid-container {
+	padding: 5px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 130px);
+}
+
+.ttt__grid-item {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	font-size: 64px;
+	cursor: pointer;
+}
+
+.ttt__event {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.event__message {
+	color: rgb(142, 195, 241);
+}
+
+.x {
+	color: #f37171;
+	font-weight: 700;
+}
+
+.o {
+	color: rgb(142, 210, 82);
+	font-weight: 700;
+}

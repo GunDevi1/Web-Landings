@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="ap__html">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Audio Player</title>
+
+		<link rel="stylesheet" href="../styles/style.css" />
+	</head>
+	<body class="ap__body">
+		<div class="ap__background-container">
+			<img src="" alt="" id="bg-img" />
+		</div>
+
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-text">GunDevi1</div>
+				<div class="home-page">
+					<a href="/">Home</a>
+				</div>
+			</nav>
+		</header>
+
+		<main class="ap__main">
+			<h1 class="ap__greeting">JavaScript Audio Player</h1>
+			<div class="ap__block">
+				<div class="ap__image-block">
+					<img src="" alt="" class="ap__image" id="cover" />
+				</div>
+				<h2 class="ap__title" id="title"></h2>
+				<h2 class="ap__author" id="artist"></h2>
+				<div class="ap__player-progress" id="player-progress">
+					<div class="ap__progress" id="progress"></div>
+					<div class="ap__duration-block">
+						<span class="ap__current-duration" id="current-time"> 0:00 </span>
+						<span class="ap__max-duration" id="duration"> 0:00 </span>
+					</div>
+				</div>
+				<div class="ap__options">
+					<i class="fa-solid fa-backward change" title="Previous" id="prev"></i>
+					<i class="fa-solid fa-play play-pause" title="Play" id="play"></i>
+					<i class="fa-solid fa-forward change" title="Next" id="next"></i>
+				</div>
+			</div>
+		</main>
+	</body>
+	<script
+		src="https://kit.fontawesome.com/68de43edb0.js"
+		crossorigin="anonymous"
+	></script>
+	<script src="../vendor/audioplayer.js"></script>
+</html>

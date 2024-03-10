@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<title>TicTacToe</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-text">GunDevi1</div>
+				<div class="home-page">
+					<a href="/">Home</a>
+				</div>
+			</nav>
+		</header>
+
+		<header class="ttt__header">
+			<h1>Tic Tac Toe</h1>
+		</header>
+		<div class="ttt__container">
+			<div class="ttt__main-block">
+				<div class="ttt__grid-container">
+					<div class="ttt__grid-item" id="1" onclick="placeSymbol(1)"></div>
+					<div class="ttt__grid-item" id="2" onclick="placeSymbol(2)"></div>
+					<div class="ttt__grid-item" id="3" onclick="placeSymbol(3)"></div>
+					<div class="ttt__grid-item" id="4" onclick="placeSymbol(4)"></div>
+					<div class="ttt__grid-item" id="5" onclick="placeSymbol(5)"></div>
+					<div class="ttt__grid-item" id="6" onclick="placeSymbol(6)"></div>
+					<div class="ttt__grid-item" id="7" onclick="placeSymbol(7)"></div>
+					<div class="ttt__grid-item" id="8" onclick="placeSymbol(8)"></div>
+					<div class="ttt__grid-item" id="9" onclick="placeSymbol(9)"></div>
+				</div>
+			</div>
+			<div class="ttt__event">
+				<h1 class="event__message"></h1>
+			</div>
+		</div>
+		<script src="../vendor/tictactoe.js"></script>
+	</body>
+</html>

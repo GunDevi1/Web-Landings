@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="age__html">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Age Calculator</title>
+
+		<link rel="stylesheet" href="../styles/style.css" />
+	</head>
+
+	<body class="age__body">
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-text">GunDevi1</div>
+				<div class="home-page">
+					<a href="/">Home</a>
+				</div>
+			</nav>
+		</header>
+
+		<div class="age__main-block">
+			<div class="age__block-header">
+				<h1 class="age__main-text">JavaScript</h1>
+				<h1 class="age__sub-main-text">Age Calculator</h1>
+			</div>
+			<div class="age__input-block">
+				<input
+					type="date"
+					class="age__input-date"
+					onkeypress="calculateDate(event)"
+				/>
+				<button class="age__input-button" onclick="getDate()">Calculate</button>
+			</div>
+			<div class="age__calculated-age-text">
+				<p class="age__text"></p>
+			</div>
+		</div>
+	</body>
+
+	<script src="../vendor/agecalculator.js"></script>
+</html>

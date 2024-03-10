@@ -1,0 +1,141 @@
+.header {
+	padding: 15px 10px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-text {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.home-page {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.container {
+	margin: 150px 20%;
+}
+
+.about-me__header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about-me__text {
+	display: inline-block;
+	width: 55%;
+}
+
+.about-me__text ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.about-me__text ul li {
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+.about-me__tech-stack {
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-me__tech-stack ul {
+	display: flex;
+}
+
+.about-me__tech-stack ul li {
+	margin-left: 20px;
+}
+
+.about-me__tech-stack span {
+	border-right: 1px solid #000;
+	padding-right: 20px;
+}
+
+.html {
+	color: #af381f;
+}
+
+.css {
+	color: #348ec5;
+}
+
+.js {
+	color: #d5d808;
+}
+
+.bootstrap {
+	color: #7910f2;
+}
+
+.sass {
+	color: #a24479;
+}
+
+.react {
+	color: #5ed3f3;
+}
+
+.avatar {
+	overflow: hidden;
+	width: 256px;
+	height: 256px;
+	border-radius: 100%;
+	background-image: url('../images/avatar.jpg');
+	background-size: cover;
+}
+
+.project-list ul {
+	font-weight: 300;
+	line-height: 32px;
+	font-size: 24px;
+}
+
+.header {
+	background-color: #fff;
+}
+
+@media (width <= 948px) {
+	.about-me__header {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-me__text {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-me__tech-stack {
+		flex-direction: column;
+	}
+
+	.about-me__tech-stack span {
+		border: none;
+		padding: 0;
+	}
+
+	.container {
+		margin: 50px;
+	}
+}

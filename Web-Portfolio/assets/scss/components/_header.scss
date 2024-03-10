@@ -1,0 +1,20 @@
+.header {
+	&__navbar {
+		padding: 80px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+		font-size: 18px;
+	}
+	&__list {
+		display: flex;
+		column-gap: 35px;
+		&-item {
+			.list-link {
+				color: #474747;
+				&.active {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
