@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>QR Code Generator</title>
+		<link rel="stylesheet" href="../styles/style.css" />
+	</head>
+
+	<body class="qr__body">
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-text">GunDevi1</div>
+				<div class="home-page">
+					<a href="/">Home</a>
+				</div>
+			</nav>
+		</header>
+
+		<h1 class="qr__main-text">JavaScript QR Code Generator</h1>
+		<div class="qr__main-content">
+			<div class="qr__main-block">
+				<input type="text" class="qr__input" />
+				<div class="qr__parameters">
+					<select class="qr__select">
+						<option value="">100x100</option>
+						<option value="">200x200</option>
+						<option value="">300x300</option>
+					</select>
+					<input type="color" class="firstColor color" />
+					<input type="color" value="#ffffff" class="secondColor color" />
+				</div>
+				<div class="qr__qr-code">
+					<img src="" alt="" class="qr__qr-code-img" />
+				</div>
+				<button class="qr__button generate">GENERATE</button>
+				<a class="qr__button download">DOWNLOAD</a>
+			</div>
+		</div>
+	</body>
+
+	<script src="../vendor/qrcodegenerator.js"></script>
+</html>

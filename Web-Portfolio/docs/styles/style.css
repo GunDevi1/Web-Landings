@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Other css files */
+@import 'weather.css';
+@import 'todo.css';
+@import 'agecalculator.css';
+@import 'slider.css';
+@import 'calculator.css';
+@import 'tictactoe.css';
+@import 'qrcodegenerator.css';
+@import 'audioplayer.css';
+@import 'index.css';
+
+input,
+textarea,
+select {
+	font-family: inherit;
+}
+
+body {
+	font-weight: 300;
+	font-family: Josefin Sans;
+	position: relative;
+	margin: 0;
+}
+
+p {
+	font-size: 24px;
+}
+
+b {
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}

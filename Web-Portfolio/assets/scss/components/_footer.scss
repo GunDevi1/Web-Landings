@@ -1,0 +1,44 @@
+.footer {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: 381px;
+		column-gap: 20px;
+	}
+	&__info {
+		background: linear-gradient(45deg, #4747479a, transparent, #47474749);
+		justify-content: center;
+		grid-column: 1 / 10;
+		border-radius: 50px 25px 25px 50px;
+		padding: 55px;
+	}
+	&__contact {
+		grid-column: 10 / 13;
+		position: relative;
+		overflow: hidden;
+		background: linear-gradient(160deg, #c23f0c, #fd9b1d);
+		border-radius: 25px 50px 50px 25px;
+	}
+	&__img {
+		width: 500px;
+		position: absolute;
+		bottom: -100px;
+		left: -30px;
+	}
+	&__text {
+		width: 37%;
+	}
+	&__pretitle {
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+	&__title {
+		font-size: 28px;
+		font-weight: 500;
+		margin-bottom: 30px;
+	}
+	&__description {
+		color: #777476;
+		font-size: 20px;
+	}
+}
