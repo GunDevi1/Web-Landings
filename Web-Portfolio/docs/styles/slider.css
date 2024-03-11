@@ -1,0 +1,135 @@
+.slider__html {
+	min-height: 100%;
+}
+
+.slider__main-block {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 25px;
+	overflow: hidden;
+	height: 400px;
+	max-width: 700px;
+	margin-top: 50px;
+	box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.input-data-block,
+.input-type-change {
+	text-align: center;
+}
+
+.input-type-change {
+	background: linear-gradient(to bottom left, #5339b0, #5545b3, #4a3d98);
+	border-radius: 100px 0 0 100px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.input-data-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.social-icons {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.social-icon a {
+	color: #000;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+	min-width: 30px;
+	min-height: 30px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider__data-text {
+	font-size: 14px;
+}
+
+.slider__data-input {
+	width: 70%;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ededed;
+	border: unset;
+}
+
+.forgot-password-button {
+	color: #000;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+.sign-in-button {
+	padding: 10px 45px;
+	color: #fff;
+	background: linear-gradient(to bottom left, #5339b0, #5545b3, #4a3d98);
+	border: unset;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.input-type-change h1 {
+	margin: 0;
+}
+
+.input-type-change p {
+	font-size: 16px;
+	margin: 25px 5px;
+}
+
+.change-type-button {
+	padding: 10px 45px;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.change-type-class {
+	flex-direction: row-reverse;
+}
+
+.changed__input-change-block {
+	border-radius: 0 100px 100px 0;
+}
+
+.input-data-block {
+	width: 75%;
+	transition: width 1.5s, border-radius 0.5s ease-in-out;
+}
+
+.input-type-change {
+	width: 50%;
+	transition: width 1.5s, border-radius 0.5s ease-in-out;
+}
+
+.change-type-class .input-data-block {
+	width: 50%;
+}
+
+.change-type-class .input-type-change {
+	width: 75%;
+}

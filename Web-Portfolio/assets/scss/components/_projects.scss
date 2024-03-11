@@ -1,0 +1,134 @@
+.projects {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(5, 554px);
+		gap: 20px;
+		border-radius: 50px;
+		overflow: hidden;
+		@media (max-width: 1196px) {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(10, 554px);
+			border-radius: 25px;
+		}
+	}
+	&__item {
+		background-color: #000;
+		border-radius: 25px;
+		padding: 55px;
+		color: #fff;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		&.headphones {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/headphones.png');
+		}
+		&.audio {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/audio.png');
+		}
+		&.qr {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/qr.png');
+		}
+		&.calculator {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/calculator.png');
+		}
+		&.task {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/task.png');
+		}
+		&.razer {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/razer.png');
+		}
+		&.weather {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/weather.png');
+		}
+		&.login {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/login.png');
+		}
+		&.ox {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/ox.png');
+		}
+		&.age {
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/age.png');
+		}
+		&-info {
+			position: absolute;
+			bottom: 55px;
+			left: 0;
+			padding: 20px 0;
+			padding-left: 20px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+			background-color: #000000da;
+			width: 100%;
+		}
+		&-title {
+			color: #fff;
+			font-size: 32px;
+		}
+		&-description {
+			font-size: 18px;
+		}
+	}
+}

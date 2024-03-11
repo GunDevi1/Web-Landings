@@ -1,0 +1,113 @@
+.ap__body {
+	background-color: #525252;
+}
+
+.ap__background-container {
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/music1.jpg');
+}
+
+.ap__background-container img {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	filter: blur(15px);
+	height: 100%;
+	z-index: -1;
+}
+
+.ap__main {
+	text-align: center;
+	color: #fff;
+}
+
+.ap__greeting {
+	margin-bottom: 100px;
+}
+
+.ap__block {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: #dadada;
+	color: #000;
+	border-radius: 15px;
+	padding: 10px 30px;
+}
+
+.ap__image-block {
+	width: 250px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -50px;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ap__image {
+	width: 100%;
+	height: 100%;
+}
+
+.ap__image[src=''] {
+	display: none;
+}
+
+.ap__title {
+	font-size: 18px;
+	margin-top: 40px;
+	font-weight: 700;
+}
+
+.ap__author {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.ap__duration-block {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	position: relative;
+	top: -20px;
+}
+
+.ap__player-progress {
+	cursor: pointer;
+	height: 6px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.ap__progress {
+	border-radius: 5px;
+	width: 0;
+	height: 100%;
+	background-color: #212121;
+	transition: width 0.1s linear;
+}
+
+.ap__options {
+	color: #525252;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 20px;
+	font-size: 32px;
+	padding: 10px 0;
+}
+
+.play-pause {
+	cursor: pointer;
+}
+
+.change {
+	font-size: 24px;
+	cursor: pointer;
+}

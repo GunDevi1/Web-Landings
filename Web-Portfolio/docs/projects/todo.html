@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="todo__html">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../styles/style.css" />
+
+		<title>Todo list</title>
+	</head>
+
+	<body class="todo__body">
+		<header class="header">
+			<nav class="navbar">
+				<div class="logo-text">GunDevi1</div>
+				<div class="home-page">
+					<a href="/">Home</a>
+				</div>
+			</nav>
+		</header>
+
+		<div class="todo__main">
+			<div class="todo__block">
+				<h2>To-Do list &#128203;</h2>
+				<div class="todo__add-new-task">
+					<input
+						type="text"
+						class="todo__new-task"
+						placeholder="add new task"
+					/>
+					<button class="todo__add-button" disabled>Add</button>
+				</div>
+				<ul class="todo__task-list"></ul>
+			</div>
+		</div>
+	</body>
+
+	<script
+		src="https://kit.fontawesome.com/68de43edb0.js"
+		crossorigin="anonymous"
+	></script>
+	<script src="../vendor/todo.js"></script>
+</html>
