@@ -6,6 +6,11 @@
 		gap: 20px;
 		border-radius: 50px;
 		overflow: hidden;
+		@media (max-width: 1196px) {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(10, 554px);
+			border-radius: 25px;
+		}
 	}
 	&__item {
 		background-color: #000;
@@ -17,34 +22,94 @@
 		background-position: center;
 		background-size: cover;
 		&.headphones {
-			background-image: url('../../assets/images/headphones.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/headphones.png');
 		}
 		&.audio {
-			background-image: url('../../assets/images/audio.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/audio.png');
 		}
 		&.qr {
-			background-image: url('../../assets/images/qr.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/qr.png');
 		}
 		&.calculator {
-			background-image: url('../../assets/images/calculator.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/calculator.png');
 		}
 		&.task {
-			background-image: url('../../assets/images/task.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/task.png');
 		}
 		&.razer {
-			background-image: url('../../assets/images/razer.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/razer.png');
 		}
 		&.weather {
-			background-image: url('../../assets/images/weather.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/weather.png');
 		}
 		&.login {
-			background-image: url('../../assets/images/login.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/login.png');
 		}
 		&.ox {
-			background-image: url('../../assets/images/ox.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/ox.png');
 		}
 		&.age {
-			background-image: url('../../assets/images/age.png');
+			background-image: linear-gradient(
+					45deg,
+					#4747479a,
+					transparent,
+					#47474749
+				),
+				url('../../assets/images/age.png');
 		}
 		&-info {
 			position: absolute;

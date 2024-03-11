@@ -4,6 +4,10 @@
 		grid-template-rows: 1fr;
 		grid-template-columns: repeat(12, 1fr);
 		column-gap: 20px;
+		@media (max-width: 1196px) {
+			grid-template-columns: 1fr;
+			row-gap: 20px;
+		}
 	}
 	&__greeting {
 		grid-column: 1 / 9;
@@ -15,17 +19,31 @@
 		display: flex;
 		flex-direction: column;
 		row-gap: 39px;
+		@media (max-width: 1196px) {
+			grid-template-columns: 1fr;
+			grid-column: 1;
+			border-radius: 25px;
+			padding: 22px;
+		}
 		.greeting {
 			&__header {
 				display: grid;
 				align-items: center;
 				grid-template-columns: repeat(12, 1fr);
 				grid-template-rows: 1fr;
+				@media (max-width: 1196px) {
+					grid-template-columns: 1fr;
+					grid-template-rows: repeat(2, 1fr);
+					row-gap: 20px;
+				}
 				&-info {
 					display: flex;
 					align-items: center;
 					column-gap: 10px;
 					grid-column: 1 / 8;
+					@media (max-width: 1196px) {
+						grid-column: 1;
+					}
 				}
 				&-img {
 					height: 48px;
@@ -53,12 +71,20 @@
 				&-text {
 					font-size: 48px;
 					width: 80%;
+					@media (max-width: 1196px) {
+						width: 100%;
+						font-size: 28px;
+					}
 				}
 				&-subtext {
 					color: #9fa1a6;
 					line-height: 24px;
 					font-size: 16px;
 					width: 65%;
+					@media (max-width: 1196px) {
+						width: 100%;
+						font-size: 12px;
+					}
 				}
 			}
 			&__socials {
@@ -67,6 +93,10 @@
 					column-gap: 12px;
 					justify-self: end;
 					grid-column: 10 / 13;
+					@media (max-width: 1196px) {
+						grid-column: 1;
+						justify-self: start;
+					}
 				}
 				&-link {
 					width: 40px;
@@ -88,8 +118,16 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			@media (max-width: 1196px) {
+				grid-template-columns: 1fr;
+				grid-column: 1;
+				border-radius: 25px;
+			}
 			img {
 				width: 90%;
+				@media (max-width: 1196px) {
+					width: 50%;
+				}
 			}
 		}
 	}

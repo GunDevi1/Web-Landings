@@ -8,12 +8,11 @@
 	&__list {
 		display: flex;
 		column-gap: 35px;
-		&-item {
-			.list-link {
-				color: #474747;
-				&.active {
-					color: #fff;
-				}
+		&-link {
+			color: #474747;
+			transition: color 0.3s ease-in-out;
+			&:hover {
+				color: #fff;
 			}
 		}
 	}

@@ -3,21 +3,23 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="assets/styles/styles.min.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
 		<title>GunDevi1</title>
 	</head>
 	<body>
-		<header class="header">
+		<header class="header" id="header">
 			<nav class="header__navbar container">
 				<a href="#" class="header__logo">GunDevi1, Front-End</a>
 				<ul class="header__list">
 					<li class="header__list-item">
-						<a href="#" class="list-link active">Present</a>
+						<a href="#header" class="header__list-link">Present</a>
 					</li>
 					<li class="header__list-item">
-						<a href="#" class="list-link">Skills</a>
+						<a href="#projects" class="header__list-link">Projects</a>
 					</li>
 					<li class="header__list-item">
-						<a href="#" class="list-link">Contact</a>
+						<a href="#contact" class="header__list-link">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -73,122 +75,100 @@
 				</div>
 			</section>
 
-			<section class="projects__section">
+			<section class="projects__section" id="projects">
 				<div class="projects__container">
-					<div class="projects__item headphones">
+					<a
+						href="https://silver-gaufre-5ea6b5.netlify.app/"
+						class="projects__item headphones"
+					>
 						<div class="projects__item-info">
-							<a
-								href="https://silver-gaufre-5ea6b5.netlify.app/"
-								class="projects__item-title"
-								>Headphone Shop</a
-							>
+							<div class="projects__item-title">Headphone Shop</div>
 							<p class="projects__item-description">
 								Online store for purchasing headphones.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item razer">
+					</a>
+					<a
+						href="https://eclectic-melba-c4c4fc.netlify.app/"
+						class="projects__item razer"
+					>
 						<div class="projects__item-info">
-							<a
-								href="https://eclectic-melba-c4c4fc.netlify.app/"
-								class="projects__item-title"
-								>Razer.com</a
-							>
+							<div class="projects__item-title">Razer.com</div>
 							<p class="projects__item-description">
 								Website of Razer - leader in gaming hardware.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item audio">
+					</a>
+					<a href="docs/projects/audioplayer.html" class="projects__item audio">
 						<div class="projects__item-info">
-							<a
-								href="docs/projects/audioplayer.html"
-								class="projects__item-title"
-								>Audio Player</a
-							>
+							<div class="projects__item-title">Audio Player</div>
 							<p class="projects__item-description">
 								Simple and convenient audio player.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item calculator">
+					</a>
+					<a
+						href="docs/projects/calculator.html"
+						class="projects__item calculator"
+					>
 						<div class="projects__item-info">
-							<a
-								href="docs/projects/calculator.html"
-								class="projects__item-title"
-								>Basic Calculator</a
-							>
+							<div class="projects__item-title">Basic Calculator</div>
 							<p class="projects__item-description">
 								Simple calculator for basic operations.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item qr">
+					</a>
+					<a
+						href="docs/projects/qrcodegenerator.html"
+						class="projects__item qr"
+					>
 						<div class="projects__item-info">
-							<a
-								href="docs/projects/qrcodegenerator.html"
-								class="projects__item-title"
-								>QR Code Generator</a
-							>
+							<div class="projects__item-title">QR Code Generator</div>
 							<p class="projects__item-description">
 								Generate QR codes with text or URLs.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item login">
+					</a>
+					<a href="docs/projects/slider.html" class="projects__item login">
 						<div class="projects__item-info">
-							<a href="docs/projects/slider.html" class="projects__item-title"
-								>Custom Login Page</a
-							>
+							<div class="projects__item-title">Custom Login Page</div>
 							<p class="projects__item-description">
 								Create a custom login page.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item ox">
+					</a>
+					<a href="docs/projects/tictactoe.html" class="projects__item ox">
 						<div class="projects__item-info">
-							<a
-								href="docs/projects/tictactoe.html"
-								class="projects__item-title"
-								>Tic Tac Toe Game</a
-							>
+							<div class="projects__item-title">Tic Tac Toe Game</div>
 							<p class="projects__item-description">
 								Classic Tic Tac Toe game.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item task">
+					</a>
+					<a href="docs/projects/todo.html" class="projects__item task">
 						<div class="projects__item-info">
-							<a href="docs/projects/todo.html" class="projects__item-title"
-								>To-Do List</a
-							>
+							<div class="projects__item-title">To-Do List</div>
 							<p class="projects__item-description">Simple task list.</p>
 						</div>
-					</div>
-					<div class="projects__item weather">
+					</a>
+					<a href="docs/projects/weather.html" class="projects__item weather">
 						<div class="projects__item-info">
-							<a href="docs/projects/weather.html" class="projects__item-title"
-								>Weather Report</a
-							>
+							<div class="projects__item-title">Weather Report</div>
 							<p class="projects__item-description">
 								Application for viewing weather.
 							</p>
 						</div>
-					</div>
-					<div class="projects__item age">
+					</a>
+					<a href="docs/projects/agecalculator.html" class="projects__item age">
 						<div class="projects__item-info">
-							<a
-								href="docs/projects/agecalculator.html"
-								class="projects__item-title"
-								>Age Calculator</a
-							>
+							<div class="projects__item-title">Age Calculator</div>
 							<p class="projects__item-description">Simple age calculator.</p>
 						</div>
-					</div>
+					</a>
 				</div>
 			</section>
 
-			<section class="footer__section">
+			<section class="footer__section" id="contact">
 				<div class="footer__container">
 					<div class="footer__info">
 						<div class="footer__text">
