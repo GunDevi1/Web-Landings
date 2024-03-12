@@ -14,15 +14,18 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: right;
-		background-image: url('../../assets/images/skills.png'),
-			linear-gradient(45deg, #4747479a, transparent, #47474749);
+		background-image: linear-gradient(45deg, #4747479a, transparent, #47474749);
 		justify-content: center;
 		grid-column: 1 / 10;
 		border-radius: 50px 25px 25px 50px;
 		padding: 55px;
+		display: flex;
+		justify-content: space-between;
+		overflow: hidden;
 		@media (max-width: 1196px) {
 			grid-column: 1;
 			border-radius: 25px;
+			position: relative;
 		}
 	}
 	&__contact {
@@ -43,7 +46,8 @@
 		left: -30px;
 	}
 	&__text {
-		width: 37%;
+		width: 50%;
+		z-index: 10;
 		@media (max-width: 1196px) {
 			width: 100%;
 		}
@@ -60,5 +64,8 @@
 	&__description {
 		color: #777476;
 		font-size: 20px;
+		@media (max-width: 1196px) {
+			color: #f0f0f0;
+		}
 	}
 }
