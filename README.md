@@ -14,7 +14,7 @@ This repository contains HTML/CSS files for various web landing pages, including
 
 3. **Web Portfolio**
    - Description: A portfolio website showcasing various web projects and skills.
-   - Live Demo: [Web Portfolio Demo](https://app.netlify.com/sites/helpful-churros-7eb5df/overview)
+   - Live Demo: [Web Portfolio Demo](https://helpful-churros-7eb5df.netlify.app/)
 
 ## Usage:
 
