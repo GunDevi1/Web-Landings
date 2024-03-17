@@ -21,4 +21,4 @@ This repository contains HTML/CSS files for various web landing pages, including
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/GunDevi1/web-landings.git
+   git clone https://github.com/GunDevi1/Web-Landings.git
